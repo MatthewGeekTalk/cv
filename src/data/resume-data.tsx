@@ -1,21 +1,8 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
-  NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -28,7 +15,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I work mostly with ABAP, Node.js, Java, JavaScript, Python. I have over 13 years of experiences on backend development and 4 years experiences on frontend",
-  avatarUrl: "https://private-user-images.githubusercontent.com/23353056/332322565-c66da85c-b658-4ed2-ae0e-4899ce05851f.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYyNzg1NDAsIm5iZiI6MTcxNjI3ODI0MCwicGF0aCI6Ii8yMzM1MzA1Ni8zMzIzMjI1NjUtYzY2ZGE4NWMtYjY1OC00ZWQyLWFlMGUtNDg5OWNlMDU4NTFmLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTIxVDA3NTcyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUwZDNiZjllNjZiOTJlZjU5MWJjYjZmOGIwYjBiZDM5ODgyYjk5YzE4MjBiMjEwZDliOWNjMmUxZTBhNDNjM2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TXzDjuzQNDQP7RULd8tLzmJ3BBOfx2dvRo3FEdK8DaY",
+  avatarUrl: "https://private-user-images.githubusercontent.com/23353056/332754552-97d1372d-3544-43f0-9b34-afee51cb152f.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYzNzMyNDcsIm5iZiI6MTcxNjM3Mjk0NywicGF0aCI6Ii8yMzM1MzA1Ni8zMzI3NTQ1NTItOTdkMTM3MmQtMzU0NC00M2YwLTliMzQtYWZlZTUxY2IxNTJmLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTIyVDEwMTU0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFhZDFkNTVkN2Y1OWY0OGEwOTk5ZGE5NDk2NzQzMWNkNGVmM2FlNDIxOThhNGViOTlkNTZhZWE0M2JhOTAwZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.t8cUs_PR3a_CbDRJnoT3Fv8JeQJC1WsBsixR2UDS4N4",
   personalWebsiteUrl: "https://matthewgeektalk.github.io/",
   contact: {
     email: "matthew.he.geek@gmail.com",
@@ -84,177 +71,71 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "ABAP",
+    "ABAP/GUI/BOPF/FPM/FBI(SAP)",
+    "Odata/CDS/CAP(SAP)",
     "Node.js",
-    "JavaScript",
     "TypeScript",
     "Java",
     "Python",
     "Docker/Kubernetes",
-    "Vue/React/Angular",
-    "Jenkins/Azure DevOps",
+    "JavaScript/Vue/React/Angular/UI5(SAP)",
+    "Jenkins/Azure",
     "Bash/Groovy",
+    "HANA(SAP)/MySQL/PostgreSQL/MongoDB",
+    "RabbitMQ/Kafka/EventMesh(SAP)",
+    "Jmeter/Locust/SUPA(SAP)",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Intelligent Clinical Supply Management(Full Stack Developer/DevOps)",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "NodeJS",
+        "JavaScript",
+        "Docker",
+        "Bash/Groovy",
+        "Jenkins",
+        "Odata/CAP/UI5/HANA/EventMesh",
+        "Jmeter/Locust/SUPA",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Manage the planning, sourcing, manufacturing, distribution, and reconciliation of supplies for clinical studies, and addresses specific blinding and randomization needs.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "help.sap.com/",
+        href: "https://help.sap.com/docs/S4_INTELLCLINICSUPPLYMGMT/462d8a00a8ab4f5caa244e8bea38d6cb/4b50a1236fab4e66b164defe4a0bcff3.html",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Transportation Management(Developer)",
+      techStack: ["ABAP", "GUI", "BOPF", "FPM", "FBI"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "SAP Transportation Management is a comprehensive solution for performing all activities connected with the physical transportation of goods from one location to another.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "help.sap.com/",
+        href: "https://help.sap.com/docs/SAP_TRANSPORTATION_MANAGEMENT",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Asset Management(Architect)",
+      techStack: ["ABAP", "NodeJS", "JAVA", "Python", "Docker/K8s(Gardener)/Helm", "Jenkins", "MySQL"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Asset Management for SAP S/4HANA is a comprehensive solution for managing physical assets on a common platform across the enterprise.",
+      logo: MonitoLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/ibso-ml-deep-learnnig/DemoJam2019",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Container Detector(Architect)",
+      techStack: ["Python", "Tensorflow", "OpenCV"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Container Detector is a tool to detect the container in the image. It is based on the Tensorflow object detection API",
+      logo: MonitoLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/MatthewGeekTalk/ContainerDetector",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
